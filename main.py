@@ -57,11 +57,10 @@ def update_database(request):
 
 def connect_to_sql():
   print("Connecting to SQL...")
-  connection_name = "wbsproject01:europe-west1:wbs-mysql-db"
+  connection_name = get_keys('mysql_gcp_con')
   # db_user = "root"
-  db_user = "wbs-mysql-db"
-  # db_password = get_keys('mysql_gcp')
-  db_password = "wbsPH_24gans"
+  db_user = get_keys('mysql_gcp_user')
+  db_password = get_keys('mysql_gcp')
   schema_name = "gans"
 
   driver_name = 'mysql+pymysql'
