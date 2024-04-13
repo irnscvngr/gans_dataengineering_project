@@ -46,25 +46,25 @@ The project is split in 6 distinct parts:
 The database is first setup locally in MySQL workbench and later on pushed to Google Cloud.
 A total of 6 tables exists in the "Gans"-Schema:
 1. Cities<br>
-   *central table, contains city names and IDs among others*
+   *Central table, contains city names and IDs among others*
    <br><br>
 2. Population<br>
-   *contains city-populations per year*
+   *Contains city-populations per year*
    <br><br>
 3. Weather<br>
-   *contains weatherforecast for the next 48h in 3h intervals*
+   *Contains weatherforecast for the next 48h in 3h intervals*
    <br><br>
 4. Airports<br>
-   *relates airport-IATA-codes to respective city-IDs. also contains airport-locations*
+   *Relates airport-IATA-codes to respective city-IDs. also contains airport-locations*
    <br><br>
 5. Flights<br>
-   *contains flight information for the next 48h*
+   *Contains flight information for the next 48h*
    <br><br>
 6. Customerload<br>
-   *customer demand prediction based on population-, weather- and flights-data*
+   *Customer demand prediction based on population-, weather- and flights-data*
 <br>
 <br>
-<img src="images/EER-Diagram.png" width="500">
+<img src="images/EER-Diagram.png" width="600">
 
 <hr>
 
