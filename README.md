@@ -29,4 +29,12 @@ The project is split in distinct parts:
 6. Create online dashboard to visualize and analyze gathered data.
    Tools: Google Looker Studio.
 
+## Google Cloud Platform
+
+To provide easy accessability and automated updating of the database, the project is hosted on Google Cloud Platform (GCP).
+Here, the data-gathering python code is executed daily and writes it's result to the online database.
+See the GCP setup in the next image:
+
+<img src="Flowdiagram_02.png" width="700">
+
 <img src="Flowdiagram_01.png" width="700">
