@@ -24,20 +24,47 @@ Please follow this <a href="https://lookerstudio.google.com/reporting/d217368a-f
 The project is split in 6 distinct parts:
 <br><br>
 1. Gather population, weather and flights-data from online sources.<br>
-   Tools: Python, Pandas
+   *Tools: Python, Pandas*
    <br><br>
 3. Setup basic models on customerdemand (base demand, demand through aviation, influence of weather)<br>
-   Tools: Python, Pandas, Numpy
+   *Tools: Python, Pandas, Numpy*
    <br><br>
 5. Setup local MySQL database and fill it with the gathered data.<br>
-   Tools: MySQL Workbench, Python, Pandas
+   *Tools: MySQL Workbench, Python, Pandas*
    <br><br>
 7. Establish local data-pipeline on Google Cloud Platform.<br>
-   Tools: Google Cloud (GC) Functions, GC Run, GC SQL, GC Scheduler
+   *Tools: Google Cloud (GC) Functions, GC Run, GC SQL, GC Scheduler*
    <br><br>
 9. Create online dashboard to visualize and analyze gathered data.<br>
-   Tools: Google Looker Studio.
+   *Tools: Google Looker Studio.*
    <br><br>
+
+<hr>
+
+### Database setup
+
+The database is first setup locally in MySQL workbench and later on pushed to Google Cloud.
+A total of 6 tables exists in the "Gans"-Schema:
+1. Cities<br>
+   *central table, contains city names and IDs among others*
+   <br><br>
+2. Population<br>
+   *contains city-populations per year*
+   <br><br>
+3. Weather<br>
+   *contains weatherforecast for the next 48h in 3h intervals*
+   <br><br>
+4. Airports<br>
+   *relates airport-IATA-codes to respective city-IDs. also contains airport-locations*
+   <br><br>
+5. Flights<br>
+   *contains flight information for the next 48h*
+   <br><br>
+6. Customerload<br>
+   *customer demand prediction based on population-, weather- and flights-data*
+<br>
+<br>
+<img src="images/EER-Diagram.png" width="500">
 
 <hr>
 
