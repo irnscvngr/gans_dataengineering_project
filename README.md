@@ -28,3 +28,5 @@ The project is split in distinct parts:
    Tools: Google Cloud (GC) Functions, GC Run, GC SQL, GC Scheduler
 6. Create online dashboard to visualize and analyze gathered data.
    Tools: Google Looker Studio.
+
+<img src="Dashboard-01.png"> <img src="Flowdiagram_01.png" width="500">
