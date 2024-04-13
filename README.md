@@ -1,6 +1,6 @@
 # GANS Data Engineering Project
 
-<img src="images/tools_overview.png" width="1000">
+<img src="images/toolsoverview.png" width="1000">
 
 ## Project Goal
 This project was done as part of a data science bootcamp for a fictional company called "Gans".
