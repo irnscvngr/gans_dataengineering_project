@@ -29,4 +29,4 @@ The project is split in distinct parts:
 6. Create online dashboard to visualize and analyze gathered data.
    Tools: Google Looker Studio.
 
-<img src="Flowdiagram_01.png">
+<img src="Flowdiagram_01.png" width="500">
