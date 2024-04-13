@@ -1,5 +1,7 @@
 # GANS Data Engineering Project
 
+<img src="tools_overview.png" width="1000">
+
 ## Project Goal
 This project was done as part of a data science bootcamp for a fictional company called "Gans".
 Gans is a provider of electric scooters for rent.
