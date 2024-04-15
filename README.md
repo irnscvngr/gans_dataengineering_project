@@ -16,8 +16,18 @@ Below you can see screenshots of the online-dashboard made with Google Looker St
 Please follow this <a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">[Link]<a/> to find the interactive dashboard on Google Looker Studio!
 <br>
 <br>
-<img src="images/Dashboard-01.png" width="500"> <img src="images/Dashboard-02.png" width="500">
-<img src="images/Dashboard-03.png" width="500"> <img src="images/Dashboard-04.png" width="500">
+<a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
+<img src="images/Dashboard-01.png" width="500">
+</a>
+<a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
+<img src="images/Dashboard-02.png" width="500">
+</a>
+<a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
+<img src="images/Dashboard-03.png" width="500">
+</a>
+<a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
+<img src="images/Dashboard-04.png" width="500">
+</a>
 
 ## Project Setup
 
