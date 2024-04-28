@@ -16,18 +16,20 @@ Below you can see screenshots of the online-dashboard made with Google Looker St
 Please follow this <a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">[Link]<a/> to find the interactive dashboard on Google Looker Studio!
 <br>
 <br>
-<a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
-<img src="images/Dashboard-01.png" width="500">
-</a>
-<a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
-<img src="images/Dashboard-02.png" width="500">
-</a>
-<a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
-<img src="images/Dashboard-03.png" width="500">
-</a>
-<a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
-<img src="images/Dashboard-04.png" width="500">
-</a>
+<p align='center'>
+  <a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
+    <img src="images/Dashboard-01.png" width="500">
+  </a>
+  <a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
+    <img src="images/Dashboard-02.png" width="500">
+  </a>
+  <a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
+    <img src="images/Dashboard-03.png" width="500">
+  </a>
+  <a href="https://lookerstudio.google.com/reporting/d217368a-f033-457d-8f9d-307d04ae46d5">
+    <img src="images/Dashboard-04.png" width="500">
+  </a>
+</p>
 
 ## Project Setup
 
@@ -74,7 +76,9 @@ A total of 6 tables exists in the "Gans"-Schema:
    *Customer demand prediction based on population-, weather- and flights-data*
 <br>
 <br>
-<img src="images/EER-Diagram.png" width="600">
+<p align='center'>
+  <img src="images/EER-Diagram.png" width="600">
+</p>
 
 <hr>
 
@@ -85,7 +89,9 @@ Here, the data-gathering python code is executed daily and writes it's result to
 See the GCP setup in the next image:
 <br>
 <br>
-<img src="images/Flowdiagram_02.png" width="500">
+<p align='center'>
+  <img src="images/Flowdiagram_02.png" width="500">
+</p>
 
 <hr>
 
@@ -97,7 +103,9 @@ These functions are called from a main py-file that also contains the necessary 
 See the program setup in the next image:
 <br>
 <br>
-<img src="images/Flowdiagram_01.png" width="600">
+<p align='center'>
+  <img src="images/Flowdiagram_01.png" width="600">
+</p>
 
 <hr>
 
